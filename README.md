@@ -1,49 +1,48 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Cinta!</title>
+    <title>Will You Be My Valentine?</title>
     <style>
         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: pink;
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
+        }
+        .container {
             text-align: center;
-            padding: 50px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #ff6347;
+            color: red;
         }
-        .message {
-            margin: 20px 0;
-            font-size: 1.2em;
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
-        .birthday-image {
-            width: 300px;
-            height: auto;
-            margin: 20px 0;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
+        button:hover {
+            background-color: darkred;
         }
     </style>
 </head>
 <body>
-
-    <h1>Happy Birthday Cintaa!</h1>
-    <img src="https://i.ibb.co.com/VBDBcxv/Gambar-Whats-App-2024-11-28-pukul-19-51-18-55158310.jpg" alt="Selamat Ulang Tahun" class="birthday-image">
-
-    <div class="message">
-        <p>Emm Udah itu aja.</p>
-        <p>maaf kalo jelek hehe, dan maaf kalo lambat.</p>
+    <div class="container">
+        <h1>Will You Be My Valentine?</h1>
+        <button onclick="alert('Yay! I\'m so happy! 💖')">Yes</button>
+        <button onclick="alert('Oh no! Please reconsider! 😢')">No</button>
     </div>
-
-    <div>
-        <button onclick="alert('Terima kasih!')">Ucapan Terima Kasih</button>
-    </div>
-
 </body>
 </html>
